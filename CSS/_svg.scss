@@ -1,0 +1,39 @@
+.favicon{
+    margin: 3%;
+    margin-left: 14%;
+    }
+    
+    .by path {
+      fill: transparent;
+      stroke-width: 10;
+      stroke: $color-gold;
+    
+      stroke-dasharray: 1560;
+      stroke-dashoffset: 3560;
+    }
+    
+    .by path {
+      animation: animate-by 3.5s infinite linear forwards;
+    }
+    
+    @keyframes animate-by {
+      0% {
+        stroke-dashoffset: 0;
+      }
+    
+      40% {
+          stroke-dashoffset: 1810;
+         
+      }
+    
+      80%{
+          stroke-dashoffset: 3620;
+          fill:$color-gold;
+      }
+    
+      100%{
+        stroke-dashoffset: 3620;
+        fill:$color-gold;
+    }
+    }
+    
