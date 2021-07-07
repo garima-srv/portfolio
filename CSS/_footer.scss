@@ -1,3 +1,58 @@
 #footer{
-    height: 300px;
+    height: 250px;
+}
+
+
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8%;
+    padding: 3%;
+    font-size: 1.2rem;
+    line-height: 2;
+    text-transform: uppercase;
+    text-align: left;
+
+
+    .grey{
+        color: $color-secondary;
+    }
+}
+
+.resume-container{
+    //border: solid 1px #fff;
+    margin: 1.5%;
+    width: 25%;
+}
+
+
+
+.view-resume{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 1%;
+    border: 1px solid $color-secondary;
+
+    &:hover{
+        border: 1px solid $color-white;
+    }
+
+
+    p{
+        text-transform:none;
+        margin-right: 0.5rem;
+    }
+
+    i{ color: $color-gold !important;}
+}
+
+.credit{
+    text-align: center;
+    color: $color-secondary;
+    margin-bottom:2%;
+
+    i{ color: $color-gold !important;}
 }
