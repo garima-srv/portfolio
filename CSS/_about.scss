@@ -1,4 +1,59 @@
+
+
 #about{
     height: 100vh;
     border-bottom: 1px solid $color-secondary;
+}
+
+
+
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+#circle {
+    background: $color-secondary;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-left: 18%;
+    margin-top: 4%;
+
+}
+
+.image-container{
+    max-width: 150px;
+    max-height: 100px;
+
+}
+
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-column-gap: 1px;
+    justify-items: left;   
+    margin-top: 7%;
+
+
+    p{
+        font-size: 1.2rem;    
+    }
+
+}
+
+
+.about-description{
+    background-color: $color-secondary;
+    color: $color-white;
+    padding:  7%;
+    margin-right: 10%;
+    border-radius: 25px;
+    font-weight: 250;
+    line-height: 1.5;
 }
