@@ -46,7 +46,10 @@
         margin-right: 0.5rem;
     }
 
-    i{ color: $color-gold !important;}
+    i{
+         color: $color-gold !important;
+
+    }
 }
 
 .credit{
@@ -54,5 +57,7 @@
     color: $color-secondary;
     margin-bottom:2%;
 
-    i{ color: $color-gold !important;}
+    i{
+         color: $color-gold !important;
+    }
 }
