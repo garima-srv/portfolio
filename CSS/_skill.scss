@@ -1,7 +1,44 @@
 #skill{
     height: 100vh;
     border-bottom: 1px solid $color-secondary;
+    
+
+    i {width: 100px;}
+
+    margin-bottom: 3%;
+
+
 }
+
+
+.fa-docker{color: #0db7ed;}
+.fa-sass{color: #CD6799;}
+.fa-node{color: #3C873A;}
+.fa-js {color: #F0DB4F;}
+.fa-html5 {color: #F16529;}
+.fa-css3-alt {color: #0db7ed;}
+.fa-python {color: #8ac847;}
+.fa-vuejs {color: #41B883;}
+.fa-ubuntu {color: #DD4814;}
+.fa-windows {color:#00BCF2}
+.fa-git-alt {color: #F1502F;}
+.fa-figma {color: #e04a34;}
+.fa-bootstrap {color:  #563d7c;}
+.fa-database {color: #4DB33D;}
+.fa-hackerrank {color: #39f077;}
+.fa-linux {color: $color-secondary-dark;}
+.fa-github-alt {color: #807F83;}
+.fa-stack-overflow {color: #F47F24;}
+.fa-server {color: #4DB33D;}
+.fa-npm {color: #CC3534;}
+.fa-java {color: #F0DB4F;}
+.fa-terminal {color: $color-secondary-dark;}
+.fa-cloudversify {color: #0db7ed;}
+.fa-file-spreadsheet {color: #4DB33D;}
+.fa-codepen {color: $color-secondary-dark;}
+
+
+
 
 
 .skill-container{
@@ -10,6 +47,7 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1px;
     justify-items: left;
+    padding: 3% 10%;
     height: 603px;  
     font-size: 7rem;
 
@@ -25,4 +63,5 @@
 .second-part{
     width: 100%;
     height: 100%;
+    margin-left: 18%;  
 }

@@ -120,8 +120,9 @@ img {
 }
 
 .title {
-  margin: 0 10%;
-  padding-top: 3%;
+  margin-left: 7%;
+  margin-top: 3%;
+  margin-bottom: 0;
 }
 
 .title h1 {
@@ -550,7 +551,7 @@ img {
 
 .about-description {
   background-color: #2d2d3d;
-  color: #ffff;
+  color: #d6d6d6;
   padding: 7%;
   margin-right: 10%;
   border-radius: 25px;
@@ -559,19 +560,24 @@ img {
 }
 
 #contact {
-  height: 400px;
+  height: 50vh;
   border-bottom: 0.5px solid #2d2d3d;
   text-align: center;
 }
 
-#contact .title {
-  padding: 5% 7%;
-  padding-bottom: 4%;
-  margin-left: 11%;
+.contact-container {
+  margin-right: 5%;
 }
 
-#contact .title i {
-  color: #ffff;
+.contact-container .title {
+  padding: 3%;
+  margin-right: 5%;
+}
+
+.contact-container .title i {
+  color: #F0DB4F;
+  font-size: 2rem;
+  margin-left: 1%;
 }
 
 .logos {
@@ -670,12 +676,117 @@ img {
 }
 
 .credit i {
-  color: #ffc85c !important;
+  color: #DA0037 !important;
 }
 
 #skill {
   height: 100vh;
   border-bottom: 1px solid #2d2d3d;
+  margin-bottom: 3%;
+}
+
+#skill i {
+  width: 100px;
+}
+
+.fa-docker {
+  color: #0db7ed;
+}
+
+.fa-sass {
+  color: #CD6799;
+}
+
+.fa-node {
+  color: #3C873A;
+}
+
+.fa-js {
+  color: #F0DB4F;
+}
+
+.fa-html5 {
+  color: #F16529;
+}
+
+.fa-css3-alt {
+  color: #0db7ed;
+}
+
+.fa-python {
+  color: #8ac847;
+}
+
+.fa-vuejs {
+  color: #41B883;
+}
+
+.fa-ubuntu {
+  color: #DD4814;
+}
+
+.fa-windows {
+  color: #00BCF2;
+}
+
+.fa-git-alt {
+  color: #F1502F;
+}
+
+.fa-figma {
+  color: #e04a34;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.fa-database {
+  color: #4DB33D;
+}
+
+.fa-hackerrank {
+  color: #39f077;
+}
+
+.fa-linux {
+  color: #807F83;
+}
+
+.fa-github-alt {
+  color: #807F83;
+}
+
+.fa-stack-overflow {
+  color: #F47F24;
+}
+
+.fa-server {
+  color: #4DB33D;
+}
+
+.fa-npm {
+  color: #CC3534;
+}
+
+.fa-java {
+  color: #F0DB4F;
+}
+
+.fa-terminal {
+  color: #807F83;
+}
+
+.fa-cloudversify {
+  color: #0db7ed;
+}
+
+.fa-file-spreadsheet {
+  color: #4DB33D;
+}
+
+.fa-codepen {
+  color: #807F83;
 }
 
 .skill-container {
@@ -685,6 +796,7 @@ img {
       grid-template-columns: 1fr 1fr;
   grid-column-gap: 1px;
   justify-items: left;
+  padding: 3% 10%;
   height: 603px;
   font-size: 7rem;
 }
@@ -697,5 +809,6 @@ img {
 .second-part {
   width: 100%;
   height: 100%;
+  margin-left: 18%;
 }
 /*# sourceMappingURL=style.css.map */

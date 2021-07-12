@@ -1,23 +1,32 @@
 #contact {
-    height: 400px;
+    height: 50vh;
     border-bottom: 0.5px solid $color-secondary;
     text-align: center;
+}
+
+.contact-container{
+    margin-right: 5%;
+
 
     .title {
-        padding: 5% 7%;
-        padding-bottom: 4%;
-        margin-left: 11%;
+        padding: 3%;
+        margin-right: 5%;
 
         i{
-            color: $color-white;
+            color: #F0DB4F;
+            font-size: 2rem;
+            margin-left: 1%;
         }
     }
+
 
 }
 
 .logos{
     margin-left:3%;
 }
+
+
 
 .container-logo{
     display: flex;
@@ -31,7 +40,7 @@
 
     i {
           color: $color-white;
-        font-size: 50px;
+          font-size: 50px;
 
         &:hover{
            
