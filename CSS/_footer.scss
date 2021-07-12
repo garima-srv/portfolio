@@ -36,6 +36,8 @@
     display: flex;
     justify-content: center;
     width: 60%;
+    margin-top: 7%;
+    margin-left: 35%;
     padding: 1%;
     border: 1px solid $color-secondary;
 
@@ -52,6 +54,32 @@
     i{
          color: $color-gold !important;
 
+    }
+}
+
+.coding{
+
+    display: grid;
+    grid-template-columns: 1fr 7fr ;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 59%;
+    margin-top: 7%;
+
+    i{
+        margin-top:20%;
+    }
+    
+    p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        margin-left: 7%;
+        color: $color-white;
+
+        i{
+            font-style: normal;
+            color: $color-gold;
+        }
     }
 }
 

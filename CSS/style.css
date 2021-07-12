@@ -652,6 +652,8 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   width: 60%;
+  margin-top: 7%;
+  margin-left: 35%;
   padding: 1%;
   border: 1px solid #2d2d3d;
 }
@@ -667,6 +669,36 @@ img {
 
 .view-resume i {
   color: #ffc85c !important;
+}
+
+.coding {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 7fr;
+      grid-template-columns: 1fr 7fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 59%;
+  margin-top: 7%;
+}
+
+.coding i {
+  margin-top: 20%;
+}
+
+.coding p {
+  font-size: 1rem;
+  text-transform: lowercase;
+  margin-left: 7%;
+  color: #ffff;
+}
+
+.coding p i {
+  font-style: normal;
+  color: #ffc85c;
 }
 
 .credit {
