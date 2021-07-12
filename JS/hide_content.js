@@ -10,11 +10,11 @@ $('#hide-button').click(function(){
 
     if(clicked%2==0)
     {
-        $(this).html('<a id="button-content">View  Less  Projects &#x21E1;');
+        $(this).html('<a id="button-content">View  Less  Projects ⇡');
     }
     else
     {
-        $(this).html('<a id="button-content">View  More  Projects #x21E3;');  
+        $(this).html('<a id="button-content">View  More  Projects ⇣');  
     }
 
     e.preventDefault();
