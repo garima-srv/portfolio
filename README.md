@@ -5,7 +5,7 @@
 
 ## Website is live at 
 ```
-https://ibrijesh.tech
+https://ibrijesh.me
 ```
 
 <br>
